@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e4042a2-2612-4e91-8c87-9dc1b7b5bd2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/newproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/AgaionlineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/AgaionlineApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/JwtTokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/JwtTokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/JwtTokenGeneratorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/JwtTokenGeneratorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/NewErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/NewErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/repo/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/repo/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/VideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/Interfaces/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/Interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/Interfaces/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kz/dauren/agaionline/AgaionlineApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kz/koko/agaionline/AgaionlineApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/AgaionlineApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/JwtTokenAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/JwtTokenGeneratorFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/NewErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/VideoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/repo/PostRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/repo/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/repo/VideoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/Interfaces/PostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/Interfaces/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/Interfaces/VideoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/PostServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/VideoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kz/dauren/agaionline/AgaionlineApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Dauren" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/dauren255/project.git" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZkL3BCRd1QTrOfzpzrUuv526Qn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.arquillian" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/MainPages" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AgaionlineApplication (1)">
+    <configuration name="AgaionlineApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kz.koko.agaionline.AgaionlineApplication" />
+      <module name="newproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.koko.agaionline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgaionlineApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kz.dauren.agaionline.AgaionlineApplication" />
+      <module name="newproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.dauren.agaionline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgaionlineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="newproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.dauren.agaionline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.dauren.agaionline.AgaionlineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AgaionlineApplication" />
+      <item itemvalue="Spring Boot.AgaionlineApplication" />
+      <item itemvalue="Application.AgaionlineApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AgaionlineApplication (1)" />
+        <item itemvalue="Application.AgaionlineApplication" />
+        <item itemvalue="Spring Boot.AgaionlineApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e4042a2-2612-4e91-8c87-9dc1b7b5bd2f" name="Default Changelist" comment="" />
+      <created>1585377943042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585377943042</updated>
+      <workItem from="1585377949471" duration="2665000" />
+      <workItem from="1585396868801" duration="264000" />
+      <workItem from="1585466514740" duration="6703000" />
+      <workItem from="1585476448120" duration="389000" />
+      <workItem from="1585541477628" duration="10016000" />
+      <workItem from="1585562550522" duration="223000" />
+      <workItem from="1585571491095" duration="2332000" />
+      <workItem from="1585632221077" duration="477000" />
+      <workItem from="1585652519373" duration="1409000" />
+      <workItem from="1585655116510" duration="173000" />
+      <workItem from="1585656661764" duration="478000" />
+      <workItem from="1585658158830" duration="6000" />
+      <workItem from="1585658875077" duration="689000" />
+      <workItem from="1585748318229" duration="456000" />
+      <workItem from="1585749976930" duration="137000" />
+      <workItem from="1585803829849" duration="25000" />
+      <workItem from="1586798293323" duration="902000" />
+      <workItem from="1587473952338" duration="114000" />
+      <workItem from="1588006411720" duration="8551000" />
+      <workItem from="1588153245314" duration="286000" />
+      <workItem from="1588185219498" duration="688000" />
+      <workItem from="1588218886275" duration="198000" />
+      <workItem from="1588265462306" duration="3037000" />
+      <workItem from="1588494960595" duration="147000" />
+      <workItem from="1588501864407" duration="9515000" />
+      <workItem from="1588675427416" duration="1086000" />
+      <workItem from="1588683767149" duration="503000" />
+      <workItem from="1588763850945" duration="575000" />
+      <workItem from="1588764949148" duration="158000" />
+      <workItem from="1588782479837" duration="778000" />
+      <workItem from="1589184272911" duration="258000" />
+      <workItem from="1589530776867" duration="810000" />
+      <workItem from="1589640841857" duration="396000" />
+      <workItem from="1589727123424" duration="351000" />
+      <workItem from="1589966993116" duration="119000" />
+      <workItem from="1590009314225" duration="240000" />
+      <workItem from="1590010027087" duration="11000" />
+      <workItem from="1590033594566" duration="580000" />
+      <workItem from="1592288500921" duration="2014000" />
+      <workItem from="1594836185596" duration="171000" />
+      <workItem from="1594836883054" duration="2135000" />
+      <workItem from="1595709460360" duration="746000" />
+      <workItem from="1595747413415" duration="1271000" />
+      <workItem from="1619809888544" duration="934000" />
+      <workItem from="1619849622331" duration="2337000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1585379807394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585379807395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="zcfvg">
+      <created>1585379918593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585379918593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new">
+      <created>1585476471772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585476471772</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new">
+      <created>1585476626871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585476626871</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new">
+      <created>1585550162090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585550162090</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new">
+      <created>1585571720425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585571720425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new">
+      <created>1588010514783</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588010514783</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new">
+      <created>1588764488716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588764488716</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new">
+      <created>1590033645023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590033645023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="zcfvg" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="112" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619810035622">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="112" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1619810035622" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1619852217967">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619852217967" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.785@0.25.1440.785" timestamp="1619851218413" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1619852217965">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1619852217965" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.785@0.25.1440.785" timestamp="1619851218412" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1619852217963">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1619852217963" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.785@0.25.1440.785" timestamp="1619851218411" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1619852217966">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1619852217966" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.785@0.25.1440.785" timestamp="1619851218413" />
+    <state x="208" y="28" key="SettingsEditor" timestamp="1619810108270">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="28" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1619810108270" />
+    <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1619850340693">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1619850340693" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
