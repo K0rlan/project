@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <span th:insert="blocks/bootstrap"></span>
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div class="cotainer">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header" align="center">Отправить Письмо</div>
+                <div class="card-body">
+                    <form th:action="@{/email}" method="post">
+                        <div class="form-group row">
+                            <label for="guestname" class="col-md-4 col-form-label text-md-right">Имя</label>
+                            <div class="col-md-6">
+                                <input type="text" id="guestname" name="guestname" class="form-control"
+                                       required autofocus>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="guestemail" class="col-md-4 col-form-label text-md-right">Почта</label>
+                            <div class="col-md-6">
+                                <input type="email" id="guestemail" name="guestemail" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="guestphone" class="col-md-4 col-form-label text-md-right">Телефон</label>
+                            <div class="col-md-6">
+                                <input type="number" id="guestphone" name="guestphone" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="guestmessagetitle" class="col-md-4 col-form-label text-md-right">Тема письма</label>
+                            <div class="col-md-6">
+                                <input type="text" id="guestmessagetitle" name="guestmessagetitle" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="guestmessage" class="col-md-4 col-form-label text-md-right">Письмо</label>
+                            <div class="col-md-6">
+                                <input type="text" id="guestmessage" name="guestmessage" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 offset-md-4">
+                            <button type="submit" class="btn btn-primary">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer th:insert="blocks/footer :: footer"></footer>
+</body>
+</html>

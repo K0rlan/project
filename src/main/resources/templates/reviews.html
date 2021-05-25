@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"
+      taglib prefix="sec"
+      uri="http://www.springframework.org/security/tags"
+>
+<head>
+    <title th:text="${title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <span th:insert="blocks/bootstrap"></span>
+</head>
+<body>
+
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <h1 th:text="${title}"></h1>
+        </div>
+    </div>
+    <div class="row" sec:authorize="hasAuthority('USER')">
+        <div class="col-md-3">
+            <h1></h1>
+        </div>
+        <div class="col-md-8">
+            <a class="btn btn-primary float-right" th:href="'/reviews/addReview'">Добавить отзыв</a>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4" th:each="el : ${reviews}">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text" th:text="${el.reviewername}"></p>
+                        <p class="card-text" th:text="${el.reviewdate}"></p>
+                        <p class="card-text" th:text="${el.reviewtext}"></p>
+                    </div>
+                    <form sec:authorize="hasAuthority('ADMIN')" th:action="@{'/reviews/deleteReview/' + ${el.id}}" method="post">
+                        <button type="submit" class="btn btn-outline-danger btn-block">Удалить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer th:insert="blocks/footer :: footer"></footer>
+</body>
+</html>

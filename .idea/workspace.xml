@@ -23,73 +23,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e4042a2-2612-4e91-8c87-9dc1b7b5bd2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07768b7-ff51-4be3-88c3-6b26a0f35188/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/diagrams.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/ReviewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/mail/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/mail/MyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Reviews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/EmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/ReviewsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/EmailSendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/EmailSendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/ReviewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/ReviewsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addReview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756/storage_v2/_src_/database/koko.yFEyAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756/storage_v2/_src_/database/koko.yFEyAA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/newproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/AgaionlineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/AgaionlineApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/JwtTokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/JwtTokenAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/JwtTokenGeneratorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/JwtTokenGeneratorFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/NewErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/NewErrorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/controllers/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/models/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/repo/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/PostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/repo/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/VideoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/Interfaces/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/Interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/Interfaces/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/PostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/service/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/PostServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kz/dauren/agaionline/AgaionlineApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kz/koko/agaionline/AgaionlineApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/AgaionlineApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/JwtTokenAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/JwtTokenGeneratorFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/MvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/BlogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/NewErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/controllers/VideoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/models/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/repo/PostRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/repo/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/repo/VideoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/Interfaces/PostService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/Interfaces/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/Interfaces/VideoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/PostServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/dauren/agaionline/service/VideoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/kz/dauren/agaionline/AgaionlineApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/service/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/service/PostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,21 +119,23 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/kz/koko/agaionline" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.arquillian" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/kz/koko/agaionline" />
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
       <recent name="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline/config" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/diagrams" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/MainPages" />
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
       <recent name="$PROJECT_DIR$/src/main/java/kz/dauren/agaionline" />
@@ -202,15 +170,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgaionlineApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="newproject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.koko.agaionline.AgaionlineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,8 +203,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.AgaionlineApplication" />
-      <item itemvalue="Spring Boot.AgaionlineApplication" />
       <item itemvalue="Application.AgaionlineApplication (1)" />
+      <item itemvalue="Spring Boot.AgaionlineApplication (1)" />
+      <item itemvalue="Spring Boot.AgaionlineApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -297,6 +271,9 @@
       <workItem from="1595747413415" duration="1271000" />
       <workItem from="1619809888544" duration="934000" />
       <workItem from="1619849622331" duration="2337000" />
+      <workItem from="1621685353662" duration="18252000" />
+      <workItem from="1621952132378" duration="88000" />
+      <workItem from="1621962107533" duration="1176000" />
     </task>
     <task id="LOCAL-00001">
       <created>1585379807394</created>
@@ -388,38 +365,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="627" y="345" width="421" height="265" key="#Assign_Data_Sources" timestamp="1621705002942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="627" y="345" width="421" height="265" key="#Assign_Data_Sources/0.0.1440.900@0.0.1440.900" timestamp="1621705002942" />
     <state x="320" y="112" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619810035622">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="112" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1619810035622" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1619852217967">
+    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1621712133007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619852217967" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.785@0.25.1440.785" timestamp="1619851218413" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1619852217965">
+    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1621712133007" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1621714812707">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1619852217965" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.785@0.25.1440.785" timestamp="1619851218412" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1619852217963">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621714812707" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.785@0.25.1440.785" timestamp="1621712819550" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1621714812705">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1619852217963" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.785@0.25.1440.785" timestamp="1619851218411" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1619852217966">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621714812705" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.785@0.25.1440.785" timestamp="1621712819548" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1621714812705">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1619852217966" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.785@0.25.1440.785" timestamp="1619851218413" />
-    <state x="208" y="28" key="SettingsEditor" timestamp="1619810108270">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621714812705" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.785@0.25.1440.785" timestamp="1621712819547" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1621714812706">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="28" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1619810108270" />
-    <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1619850340693">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621714812706" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.785@0.25.1440.785" timestamp="1621712819549" />
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1621694010762">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1619850340693" />
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1621694010762" />
+    <state x="208" y="25" width="1024" height="785" key="SettingsEditor" timestamp="1621696457479">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="25" width="1024" height="785" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621696457479" />
+    <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1621704942615">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1621704942615" />
+    <state x="494" y="274" width="452" height="345" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1621705914150">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="494" y="274" width="452" height="345" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1440.900@0.0.1440.900" timestamp="1621705914150" />
+    <state x="776" y="283" width="446" height="417" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1621708803635">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="776" y="283" width="446" height="417" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1621708803635" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621712882156">
+      <screen x="0" y="25" width="1440" height="785" />
+    </state>
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.785@0.25.1440.785" timestamp="1621712882156" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
