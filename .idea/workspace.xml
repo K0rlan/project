@@ -22,40 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e4042a2-2612-4e91-8c87-9dc1b7b5bd2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diagrams/diagrams.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/controllers/ReviewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/mail/MailConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/mail/MyConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/models/Reviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/EmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/repo/ReviewsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/EmailSendServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/EmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/EmailSendService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/Interfaces/ReviewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/ReviewsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addReview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756/storage_v2/_src_/database/koko.yFEyAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/161a31ab-1b5f-4499-8101-d6e8b702f756/storage_v2/_src_/database/koko.yFEyAA/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="7e4042a2-2612-4e91-8c87-9dc1b7b5bd2f" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/newproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/koko/agaionline/service/PostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/service/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/koko/agaionline/service/PostServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +241,7 @@
       <workItem from="1619849622331" duration="2337000" />
       <workItem from="1621685353662" duration="18252000" />
       <workItem from="1621952132378" duration="88000" />
-      <workItem from="1621962107533" duration="1176000" />
+      <workItem from="1621962107533" duration="2143000" />
     </task>
     <task id="LOCAL-00001">
       <created>1585379807394</created>
@@ -338,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590033645023</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1621963592974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621963592975</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +337,8 @@
     </ignored-roots>
     <MESSAGE value="zcfvg" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="627" y="345" width="421" height="265" key="#Assign_Data_Sources" timestamp="1621705002942">
@@ -377,25 +353,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1621712133007" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1621714812707">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1621963707286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621714812707" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621963707286" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.785@0.25.1440.785" timestamp="1621712819550" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1621714812705">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1621963707285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621714812705" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621963707285" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.785@0.25.1440.785" timestamp="1621712819548" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1621714812705">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1621963707284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621714812705" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621963707284" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.785@0.25.1440.785" timestamp="1621712819547" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1621714812706">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1621963707286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621714812706" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621963707286" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.785@0.25.1440.785" timestamp="1621712819549" />
     <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1621694010762">
       <screen x="0" y="0" width="1440" height="900" />
@@ -405,6 +381,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="25" width="1024" height="785" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621696457479" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1621963598550">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1621963598550" />
     <state x="558" y="194" width="342" height="511" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1621704942615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
